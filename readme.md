@@ -17,7 +17,3 @@ Trabalho prático onde deve ser implementado algum cálculo através da linguage
 * xmax = 2.0 ou 0.27100
 * ymin = -2.0 ou 0.004640
 * ymax = 2.0 ou 0.004810
-
-## Como gerar um executável
-
-* execute o makefile que ele gerará um executável do arquivo .py
