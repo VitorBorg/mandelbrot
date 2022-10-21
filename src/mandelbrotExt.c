@@ -6,6 +6,7 @@
 int mandelbrotExtExecute(double xmin, double xmax, double ymin, double ymax, int miter, int res)
 {
 
+
   /* The window in the plane. */
   //const double xmin = 0.27085;
   //const double xmax = 0.27100;

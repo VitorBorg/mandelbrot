@@ -8,8 +8,9 @@ Trabalho prático onde deve ser implementado algum cálculo através da linguage
 * mandelbrotExt.c - Arquivo de geração de uma imagem de uma fractal de mandelbrot
 
 ## Como compilar e executar (Feito no windows)
+Dentro da pasta src execute os comandos:
 
-* g++ -o mlib.so --shared -fPIC mandelbrotC.cpp
+* gcc -fPIC -shared -o mlibExt.so mandelbrotExt.c
 * py interface.py
 
 ## Parâmetros recomendados:
@@ -17,3 +18,7 @@ Trabalho prático onde deve ser implementado algum cálculo através da linguage
 * xmax = 2.0 ou 0.27100
 * ymin = -2.0 ou 0.004640
 * ymax = 2.0 ou 0.004810
+
+## Screenshot
+
+![alt text](https://i.postimg.cc/kXvq0j1N/Captura-de-Tela-77.png)

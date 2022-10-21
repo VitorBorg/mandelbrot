@@ -1,8 +1,4 @@
-install_python:
+InstallAndExecution:
 	pip install pysimplegui
-
-compile_windows: 
-	g++ -o mlib.so --shared -fPIC mandelbrotExt.c
-
-windows: compile_windows
+	gcc -fPIC -shared -o mlibExt.so mandelbrotExt.c
 	python interface.py
