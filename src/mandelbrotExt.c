@@ -1,17 +1,14 @@
+//o codigo original pode ser obtido em gist.github.com/andrejbauer/7919569
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <stdint.h>
 
+
+//metodo de criacao do mandelbrot
 int mandelbrotExtExecute(double xmin, double xmax, double ymin, double ymax, int miter, int res)
 {
-
-
-  /* The window in the plane. */
-  //const double xmin = 0.27085;
-  //const double xmax = 0.27100;
-  //const double ymin = 0.004640;
-  //const double ymax = 0.004810;
 
   /* Maximum number of iterations, at most 65535. */
   //const uint16_t maxiter = (unsigned short)1000;
